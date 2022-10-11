@@ -1,0 +1,136 @@
+/**************************************** NAVBAR mediaquery ************************************************/
+/* for mobile phone */
+/* if i opened a device larger than 767.89 px ==> this styling will not be applyed */
+@media (max-width: 767.89px) {
+    .navbar {
+        background-color: transparent !important;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #fff !important;
+        text-align: center;
+
+    }
+
+    .navbar .nav-link:hover {
+        border-bottom: 3px solid #c2dae0;
+        width: 15%;
+        margin: auto;
+        color: #fff !important;
+    }
+}
+
+/* for tablet phone */
+
+/* if i opened a device larger than 991.89px ==> this styling will not be applyed */
+
+@media (max-width: 991.89px) {
+    .navbar {
+        background-color: transparent !important;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #fff !important;
+        text-align: center;
+
+    }
+
+    .navbar .nav-link:hover {
+        border-bottom: 3px solid #c2dae0;
+        width: 15%;
+        margin: auto;
+        color: #fff !important;
+    }
+}
+
+/* for tablet phone */
+
+/* if i opened a device larger than 991.89px ==> this styling will not be applyed */
+
+/* @media (max-width: 991.89px) {
+    .navbar {
+        background-color: transparent !important;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #fff !important;
+        text-align: center;
+
+    }
+
+    .navbar .nav-link:hover {
+        border-bottom: 3px solid #c2dae0;
+        width: 15%;
+        margin: auto;
+        color: #fff !important;
+    }
+} */
+
+
+
+/* <!-- <div class="row row-cols-1 row-cols-md-4 g-1 d-flex justify-content-center">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="icon text-center">
+                            <i class="fa fa-desktop fa-4x"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Lorem Ipsum</h5>
+                            <p class="card-text"> Sed egestas urna quam, sit amet euismod ligula commodo vitae. Cras
+                                hendrerit quam est,
+                                non dapibus turpis porta in. Fusce viverra, lectus vitae dignissim interdum, erat leo
+                                egestas velit, eu tincidunt tellus eros a mauris.
+                            </p>
+                            <a href="#" class="btn btn-primary card-btn">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="icon text-center">
+                            <i class="fa fa-list fa-4x"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Dolor Sit</h5>
+                            <p class="card-text"> Sed egestas urna quam, sit amet euismod ligula commodo vitae. Cras
+                                hendrerit quam est,
+                                non dapibus turpis porta in. Fusce viverra, lectus vitae dignissim interdum, erat leo
+                                egestas velit, eu tincidunt tellus eros a mauris.
+                            </p>
+                            <a href="#" class="btn btn-primary card-btn">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="icon text-center">
+                            <i class="fa fa-rocket fa-4x"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Amet Bulit</h5>
+                            <p class="card-text"> Sed egestas urna quam, sit amet euismod ligula commodo vitae. Cras
+                                hendrerit quam est,
+                                non dapibus turpis porta in. Fusce viverra, lectus vitae dignissim interdum, erat leo
+                                egestas velit, eu tincidunt tellus eros a mauris.
+                            </p>
+                            <a href="#" class="btn btn-primary card-btn">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="icon text-center">
+                            <i class="fa-regular fa-image fa-4x"></i> </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Consteur elit</h5>
+                            <p class="card-text">
+                                Sed egestas urna quam, sit amet euismod ligula commodo vitae. Cras hendrerit quam est,
+                                non dapibus turpis porta in. Fusce viverra, lectus vitae dignissim interdum, erat leo
+                                egestas velit, eu tincidunt tellus eros a mauris.
+                            </p>
+                            <a href="#" class="btn btn-primary card-btn">READ MORE</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div> --> */

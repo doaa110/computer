@@ -1,0 +1,1081 @@
+/* Add global styling */
+
+
+body {
+    /* height: 5000px; */
+    font-family: "Roboto", Helvetica, Arial, sans-serif !important;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/**************************************** NAVBAR STARTS ************************************************/
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar .nav-link {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-weight: 600;
+    line-height: 19px;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #43c0ff !important;
+}
+
+.navbar .nav-link:hover {
+    color: #c2dae0 !important;
+    border-bottom: 3px solid #c2dae0;
+    /* border-width: 50px !important; */
+    transition: all 0.5s ease-in-out;
+
+}
+
+.navbar-brand img {
+    width: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: all 300ms ease-in-out 0s;
+}
+
+.navbar-brand {
+    margin-top: 5px !important;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #43c0ff !important;
+
+}
+
+.navbar-brand:hover {
+    color: #2D3F44 !important;
+}
+
+.navbar-brand img:hover {
+    background-color: rgb(192, 168, 168);
+    transition: all 300ms ease-in-out 5s;
+
+
+}
+
+.navbar-toggler-icon {
+    color: #000 !important;
+}
+
+/* Change navbar styling on scroll */
+
+.navbar.active {
+    background: #484848 !important;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #43c0ff !important;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.navbar.active .navbar-brand {
+    color: #43c0ff !important;
+}
+
+.navbar.active .navbar-brand img {
+    width: 40px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    transition: all 300ms ease-in-out 0s;
+}
+
+/* @media (max-width: 767.89px) {} */
+
+
+/* i want to put range here  */
+/* @media (min-width: 991.89px) {
+    .navbar {
+        background-color: #492a2a !important;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #fff !important;
+        text-align: center;
+
+    }
+
+    .navbar .nav-link:hover {
+        border-bottom: 3px solid #c2dae0;
+        width: 15%;
+        margin: auto;
+        color: #fff !important;
+    }
+} */
+
+/**************************************** NAVBAR ENDS ************************************************/
+/**************************************** NAVBAR mediaquery ************************************************/
+/* for mobile phone */
+
+/* if i opened a device larger than 767.89 px ==> this styling will not be applyed */
+@media (max-width: 767.89px) {
+    .navbar {
+        background-color: transparent !important;
+    }
+
+    .navbar-toggler {
+        background-color: #2D3F44 !important;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #000 !important;
+        font-size: large;
+        text-align: center;
+    }
+
+    .navbar .nav-link:hover {
+        border-bottom: 3px solid #c2dae0;
+        /* width: 10%; */
+        margin: auto;
+        color: #43c0ff !important;
+    }
+}
+
+/* for tablet phone */
+
+/* if i opened a device larger than 991.89px ==> this styling will not be applyed */
+
+@media (max-width: 991.89px) {
+    .navbar {
+        background-color: transparent !important;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+        color: #000 !important;
+        font-size: large;
+    }
+
+    .navbar-toggler {
+        background-color: #2D3F44 !important;
+    }
+
+
+    .navbar .nav-link:hover {
+        border-bottom: 3px solid #c2dae0;
+        /* width: 15%; */
+        margin: auto;
+        color: #43c0ff !important;
+    }
+}
+
+
+
+/****************************************  BACKGROUND STARTS  ************************************************/
+
+.image-background {
+    opacity: 0.7;
+    background-color: rgb(215, 215, 215) !important;
+
+}
+
+.image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 1, 0.2));
+    /* url("../images/cover.jpg") !important; */
+
+    background-image: url(../images/cover.jpg);
+    padding-top: 20rem;
+    padding-bottom: 30rem;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: calc(100vh - 64px); */
+    height: 671px;
+    /* background-attachment: scroll !important; */
+
+
+}
+
+.background-heading {
+    color: #000;
+    /* position: relative; */
+}
+
+.background-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    left: -2px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin: -18px 0 1px 0;
+    padding-bottom: 41px;
+    position: relative;
+    top: 8px;
+}
+
+.background-subtext {
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    line-height: 29px;
+    margin: -32px 0 3px 0;
+    padding: 0 0 41px 0;
+    position: relative;
+    top: 6px;
+}
+
+.img-btn {
+    margin-bottom: 10px !important;
+    margin: 0 10px 13px 0;
+    border-radius: 0 !important;
+    color: #fff;
+    background-color: #43C0FF !important;
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif !important;
+    padding-left: 20px !important;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid transparent;
+}
+
+.btn-1:hover {
+    background-color: #1a1919 !important;
+    color: #fff !important;
+}
+
+.btn-2 {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+    background-color: transparent !important;
+    border: solid #fff;
+    border-width: 2px
+}
+
+.btn-2:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+
+}
+
+.floating-arrow .arrow-icon {
+    margin-top: 50px;
+    color: rgb(54, 54, 54);
+    -webkit-animation: floating-arrow 1.6s infinite ease-in-out 0s;
+    animation: floating-arrow 1.6s infinite ease-in-out 0s;
+}
+
+
+@-webkit-keyframes floating-arrow {
+    from {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    65% {
+        -webkit-transform: translateY(11px);
+        transform: translateY(11px);
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-o-keyframes floating-arrow {
+    from {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    65% {
+        -webkit-transform: translateY(11px);
+        transform: translateY(11px);
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes floating-arrow {
+    from {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    65% {
+        -webkit-transform: translateY(11px);
+        transform: translateY(11px);
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+/* for mobile phone */
+/* if i opened a device larger than 767.89 px ==> this styling will not be applyed */
+@media (max-width: 767.89px) {
+    .background-text {
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        font-weight: normal !important;
+        letter-spacing: 1px;
+        line-height: 50px;
+    }
+}
+
+/* for tablet */
+
+/* if i opened a device larger than 991.89px ==> this styling will not be applyed */
+
+@media (max-width: 991.89px) {
+    .background-text {
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        font-weight: normal !important;
+        letter-spacing: 1px;
+        line-height: 50px;
+    }
+
+    .buttons {
+        display: flex;
+    }
+
+    .img-btn {
+        text-align: center !important;
+        justify-content: center !important;
+        padding: 5px;
+        padding-right: 10px !important;
+        color: rgb(255, 255, 255);
+        background-color: #43C0FF !important;
+        font-size: 20px;
+        font-family: 'Oxygen', sans-serif !important;
+        border: 1px solid transparent;
+    }
+
+    .btn-1:hover {
+        background-color: #1a1919 !important;
+        color: #fff !important;
+    }
+
+    .btn-2 {
+        color: #000;
+        font-size: 20px;
+        font-family: 'Oxygen', sans-serif;
+        background-color: transparent !important;
+        border: solid #fff;
+        border-width: 2px
+    }
+
+    .btn-2:hover {
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+
+    .floating-arrow .arrow-icon {
+        margin-top: 50px !important;
+    }
+}
+
+
+/****************************************  BACKGROUND ENDS  ************************************************/
+
+/****************************************  FEATURES STARTS  ************************************************/
+
+.features .row .card {
+    padding: 10px !important;
+    border: none !important;
+}
+
+.features .card .card-btn {
+    margin: auto;
+    color: #000;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: none !important;
+}
+
+.features .card .icon i {
+    color: #43c0ff;
+    /* padding: 10px; */
+}
+
+.features .row .card .card-body .card-title {
+    color: #252525;
+    line-height: 18px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.features .row .card .card-body .card-text {
+    padding-top: 10px !important;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #999999;
+    text-align: center;
+}
+
+.features .row .card .card-body a {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bolder !important;
+    line-height: 19px;
+    border-radius: none !important;
+    text-decoration: none;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.features .row .card .card-body a:hover {
+    color: #fff;
+    background-color: #252525 !important;
+}
+
+/* for tablet */
+
+/* if i opened a device larger than 991.89px ==> this styling will not be applyed */
+
+@media (max-width: 991.89px) {
+    .features .row .card .card-body .card-btn {
+        margin: auto;
+        background-color: transparent !important;
+        border: 2px solid;
+        border-radius: none !important;
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: #000;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: bolder !important;
+        line-height: 19px;
+        border-radius: none !important;
+        text-decoration: none;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+    }
+}
+
+/* for phone */
+@media (max-width: 767.89px) {
+    .features .row .card .card-body .card-btn {
+        margin: auto;
+        background-color: transparent !important;
+        border: 2px solid;
+        border-radius: none !important;
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: #000;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: bolder !important;
+        line-height: 19px;
+        border-radius: none !important;
+        text-decoration: none;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+    }
+}
+
+/****************************************  FEATURES ENDS  ************************************************/
+
+/****************************************  MULTIBURPOSE STARTS  ************************************************/
+
+
+.multi-image-background {
+    opacity: 0.7;
+}
+
+.multi-image {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 1, 0.2)), url("../images/multipurpose.jpg") !important; */
+    background-image: url(../images/multipurpose.jpg);
+    padding-top: 15rem;
+    padding-bottom: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 64px);
+    height: 671px;
+    /* background-attachment: fixed !important; */
+
+
+}
+
+.multi-heading {
+    color: #000;
+    /* position: relative; */
+}
+
+.multi-text {
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 46x;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin: -18px 0 1px 0;
+    padding-bottom: 41px;
+    position: relative;
+    top: 8px;
+}
+
+.multi-subtext {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 29px;
+    padding: 0 0 41px 0;
+}
+
+.img-btn {
+    margin-bottom: 10px !important;
+    margin: 0 10px 13px 0;
+    border-radius: 0 !important;
+    color: #fff;
+    background-color: #43C0FF !important;
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif !important;
+    padding-left: 20px !important;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid transparent;
+}
+
+.btn-1:hover {
+    background-color: #1a1919 !important;
+    color: #fff !important;
+}
+
+.btn-2 {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+    background-color: transparent !important;
+    border: solid #fff;
+    border-width: 2px
+}
+
+.btn-2:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+
+}
+
+/* for mobile phone */
+/* if i opened a device larger than 767.89 px ==> this styling will not be applyed */
+@media (max-width: 767.89px) {
+    .multi-text {
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        font-weight: normal !important;
+        letter-spacing: 1px;
+        line-height: 50px;
+    }
+}
+
+/* for tablet */
+
+/* if i opened a device larger than 991.89px ==> this styling will not be applyed */
+
+@media (max-width: 991.89px) {
+    .multi-text {
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        font-weight: normal !important;
+        letter-spacing: 1px;
+        line-height: 50px;
+    }
+
+    .buttons {
+        display: flex;
+    }
+
+    .img-btn {
+        text-align: center !important;
+        justify-content: center !important;
+        color: rgb(255, 255, 255);
+        background-color: #43C0FF !important;
+        font-family: 'Oxygen', sans-serif !important;
+    }
+
+
+    .btn-1:hover {
+        background-color: #1a1919 !important;
+        color: #fff !important;
+    }
+
+    .btn-2 {
+        color: #000;
+        font-size: 17px;
+        font-family: 'Oxygen', sans-serif;
+        background-color: transparent !important;
+        border: solid #fff;
+        border-width: 2px
+    }
+
+    .btn-2:hover {
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+
+    .floating-arrow .arrow-icon {
+        margin-top: 50px !important;
+    }
+}
+
+/****************************************  MULTIBURPOSE ENDS  ************************************************/
+
+/****************************************  FEATURES STARTS  ************************************************/
+.features-2,
+.features-2 .row .card {
+    background-color: #EFEFEF;
+}
+
+
+.features-2 .row .card {
+    padding: 10px !important;
+    border: none !important;
+}
+
+.features-2 .card .card-btn {
+    margin: auto;
+    color: #fff !important;
+    background-color: #43C0FF;
+    /* background-color: #62C8FC; */
+    border-radius: 0 !important;
+    border: none;
+    padding: 10px;
+}
+
+.features-2 .card .icon i {
+    color: #43c0ff;
+    /* padding: 10px; */
+}
+
+.features-2 .row .card .card-body .card-title {
+    color: #252525;
+    line-height: 18px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.features-2 .row .card .card-body .card-text {
+    padding-top: 10px !important;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #252525;
+    text-align: center;
+}
+
+.features-2 .row .card .card-body a {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bolder !important;
+    line-height: 19px;
+    border-radius: none !important;
+    text-decoration: none;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.features-2 .row .card .card-body a:hover {
+    color: #fff;
+    background-color: #252525 !important;
+}
+
+/* for tablet */
+
+/* if i opened a device larger than 991.89px ==> this styling will not be applyed */
+
+@media (max-width: 991.89px) {
+    .features .row .card .card-body .card-btn {
+        margin: auto;
+        background-color: transparent !important;
+        border: 2px solid;
+        border-radius: none !important;
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: #000;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: bolder !important;
+        line-height: 19px;
+        border-radius: none !important;
+        text-decoration: none;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+    }
+}
+
+/* for phone */
+@media (max-width: 767.89px) {
+    .features .row .card .card-body .card-btn {
+        margin: auto;
+        background-color: transparent !important;
+        border: 2px solid;
+        border-radius: none !important;
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: #000;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: bolder !important;
+        line-height: 19px;
+        border-radius: none !important;
+        text-decoration: none;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+    }
+}
+
+/****************************************  FEATURES ENDS  ************************************************/
+
+
+/****************************************  ABOUT STARTS  ************************************************/
+
+/* .about .multi-image-background .multi-image {
+    opacity: 0.7;
+} */
+
+/* .about .about-img {
+    opacity: 0.9 !important;
+} */
+
+.about .multi-image {
+    /* background-color: #2D3F44; */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 1, 0.2)), url("../images/multipurpose.jpg") !important; */
+    background-image: url(../images/about.jpg);
+    padding-top: 15rem;
+    padding-bottom: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 64px);
+    height: 671px;
+    background-attachment: scroll !important;
+
+
+}
+
+.about .multi-image .row .about-details h2 {
+    margin-top: 20px !important;
+    text-align: center !important;
+    justify-content: center !important;
+    color: rgb(29, 29, 29);
+    font-weight: 700;
+    line-height: 38px;
+    font-size: 25px;
+    letter-spacing: 6px;
+}
+
+.about .multi-image .row .about-details p {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 20px !important;
+    margin-left: 25px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0;
+}
+
+.about .about-button a {
+    margin-left: 20px !important;
+    font-size: 15px !important;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+
+/* for mobile phone */
+/* if i opened a device larger than 767.89 px ==> this styling will not be applyed */
+@media (max-width: 767.89px) {
+    .multi-text {
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        font-weight: normal !important;
+        letter-spacing: 1px;
+        line-height: 50px;
+    }
+}
+
+/* for tablet */
+
+/* if i opened a device larger than 991.89px ==> this styling will not be applyed */
+
+@media (max-width: 991.89px) {
+    /* .about .multi-image {
+        background-image: url(../images/about.jpg);
+        padding-top: 15rem;
+        padding-bottom: 30rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 671px;
+        background-attachment: scroll !important;
+    } */
+
+    .about .multi-image .row .about-details h2 {
+        margin-top: 10px !important;
+        color: rgb(29, 29, 29);
+        font-weight: 600;
+        line-height: 20px;
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+
+    .about .multi-image .row .about-details p {
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        margin-top: 10px !important;
+        margin-left: 25px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0;
+    }
+
+    .about .about-button a {
+        margin-left: 20px !important;
+        font-size: 15px !important;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 2px;
+        padding: 15px;
+    }
+}
+
+
+
+/****************************************  ABOUT ENDS  ******************************************************/
+
+/****************************************  SERVICES STARTS  **************************************************/
+
+.services .card .card-text {
+    color: #4c6972 !important;
+    line-height: 26px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.services {
+    margin-bottom: 50px !important;
+}
+
+/****************************************  SERVICES ENDS  ***************************************************/
+
+/****************************************  PORTFOLIO STARTS  ************************************************/
+.images {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+.imgs {
+    /* background-color: #1586c3; */
+    margin-left: 5px !important;
+}
+
+.image_ .portfolio_img {
+    height: 250px;
+    /* width: 20px; */
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.portfolio_img:hover {
+    opacity: .8;
+    transform: scale(.9);
+    transform: all 0.7s ease-out;
+}
+
+/* 
+.portfolio .heading h2 {
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
+    font-size: 20px !important;
+    line-height: 38px !important;
+    letter-spacing: 4px !important;
+    font-weight: 900 !important;
+    color: #252525;
+    font-family: Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+.card-img img:hover {
+    transform: scale(0.9);
+    transform: all 1.4s ease-in-out;
+}
+
+.social-title h3 {
+    margin-top: 10px;
+    font-size: 25px !important;
+    line-height: 38px !important;
+    letter-spacing: 4px !important;
+    font-weight: 700 !important;
+    color: #252525;
+    font-family: Roboto, Helvetica, Arial, sans-serif !important;
+
+}
+*/
+
+.social-networks {
+    display: flex;
+}
+
+
+.social-icons ul {
+    display: flex !important;
+}
+
+
+.social-icons ul li a {
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 70px;
+    width: 100px;
+    align-items: center;
+    color: #fff;
+    /* border: #4864ec solid 20px; */
+}
+
+.social-icons ul li i {
+    padding: 10px;
+}
+
+.icon-google-plus {
+    background-color: #dc422b;
+}
+
+.icon-facebook {
+    background-color: #4f7dd4;
+}
+
+.icon-pinterest {
+    background-color: #cb2027;
+}
+
+.icon-twitter {
+    background-color: #61c8ff;
+}
+
+.icon-linkedin {
+    background-color: #21a6d8;
+}
+
+.icon-youtube {
+    background-color: #ce332d;
+}
+
+.icon-instagram {
+    background-color: #5e5e5e;
+}
+
+.icon-behance {
+    background-color: #000;
+}
+
+.icon-tumbler {
+    background-color: #252525;
+}
+
+.icon-android {
+    background-color: #8ec047;
+}
+
+
+/****************************************  PORTFOLIO ENDS  ************************************************/
+
+/****************************************  PRICING STARTS  ************************************************/
+
+.pricing .card .card-header {
+    background-color: #21a6d8;
+    color: #fff;
+    font-weight: bold;
+}
+
+.pricing .card h2 {
+    color: #252525;
+    font-size: 4rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.PREMIUM {
+    margin-left: -10px;
+    margin-right: -5px;
+    padding-bottom: 52px;
+    position: relative;
+    top: -13px;
+}
+
+.PREMIUM .card-header {
+    background-color: #2569B3 !important;
+}
+
+/****************************************  PRICING ENDS  ************************************************/
+
+/****************************************  SHARING STARTS  ************************************************/
+.share {
+    background-color: #43C0FF;
+}
+
+/****************************************  SHARING ENDS  ************************************************/
+
+/****************************************  CONTACT FORM STARTS  ************************************************/
+
+/****************************************  CONTACT FORM ENDS  ************************************************/
+.contact {
+    background-color: #EFEFEF !important;
+}
+
+.contact-heading h2 {
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
+    font-size: 20px !important;
+    line-height: 50px !important;
+    letter-spacing: 5px !important;
+    font-weight: 900 !important;
+    color: #252525;
+    font-family: Roboto, Helvetica, Arial, sans-serif !important;
+}
